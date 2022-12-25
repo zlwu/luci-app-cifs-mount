@@ -5,5 +5,5 @@ function index()
 		return
 	end
 	
-	entry({"admin", "services", "cifs"}, cbi("cifs"), _("Mount SMB NetShare")).dependent = true
+	entry({"admin", "services", "cifs"}, cbi("cifs"), translate("Mount SMB NetShare")).dependent = true
 end
